@@ -4,7 +4,17 @@
     <div class="col-md-4 craft-item">
         <img src="https://替换为你的工艺品图片链接1" class="craft-img" alt="手工编织篮">
         <h3>手工编织篮</h3>
-        <p>材质：天然藤条 | 尺寸：20×15cm</p>
+        <p>材质：天然藤条 | 尺寸：20×15cm</p><!-- 微信+支付宝双按钮（手机端可直接唤起） -->
+<div class="d-flex gap-2 mt-2">
+    <!-- 微信购买按钮：手机端唤起微信客服，电脑端显示收款码 -->
+    <a href="weixin://dl/chat?username=你的微信ID" class="btn btn-success flex-fill">
+        微信购买
+    </a>
+    <!-- 支付宝购买按钮：手机端唤起支付宝，电脑端显示收款码 -->
+    <a href="alipay://platformapi/startapp?appId=20000067&url=https://qr.alipay.com/你的支付宝收款码链接" class="btn btn-primary flex-fill">
+        支付宝购买
+    </a>
+</div>
         <p class="text-danger fw-bold">价格：¥89.00</p>
         <p>纯手工编织，无化学添加，适合收纳小物件</p>
         <!-- 新增购买按钮，点击跳转到购买区域 -->
